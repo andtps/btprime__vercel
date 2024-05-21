@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .banner__tablet__img {
+    padding: 6px;
+  }
+
+  .banner__mobile__img {
+    display: none;
+  }
+
+  #modalidades__treino__btprime_carousel_mobile{
+    display: none;
+  }
+
+  #futuro__treino__btprime_mobile{
+    display: none;
+  }
+
+  #planos__btprime__mobile{
+    display: none;
+  }
+
+  #carouselExampleFade{
+    display: none;
+  }
+
+  .card{
+    display: none;
+  }
+}

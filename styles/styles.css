@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url(./tablet.css);
+@import url(./desktop.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: rgb(8, 8, 202);
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+
+span {
+  color: #fddf01;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.banner__mobile__img {
+  border-radius: 20px;
+}
+
+/*Redes sociais de cada filial*/
+
+.social__btprime__filiais {
+  background-image: url(https://via.placeholder.com/1920x500);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*navbar toogle*/
+
+.offcanvas-header {
+  background-color: #002b8e;
+}
+
+#btprime__rodape{
+  height: 560px;
+  background-color: #002b8e;
+}
+
+.banner__tablet__img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .banner__tablet__img {
+    display: none;
+  }
+
+  .modalidades__treino__btprime__tablet__lista{
+    display: none;
+  }
+  
+  .futuro__treino__btprime__tablet__lista{
+    display: none;
+  }
+  
+  #planos__btprime__tablet{
+    display: none;
+  }
+
+  #carouselExampleFade{
+    display: none;
+  }
+
+  .card{
+    display: none;
+  }
+}

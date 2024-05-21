@@ -1,0 +1,26 @@
+@media (min-width: 993px){
+
+    .banner__mobile__img{
+        display: none;
+    }
+
+    #modalidades__treino__btprime_carousel_mobile{
+        display: none;
+    }
+
+    .swiper{
+        display: none;
+    }
+
+    .modalidades__treino__btprime__tablet__lista{
+        display: none;
+    }
+
+    .futuro__treino__btprime__tablet__lista{
+        display: none;
+    }
+
+    .container__img__planos{
+        display: none;
+    }
+}
